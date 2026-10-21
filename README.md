@@ -25,7 +25,10 @@ Repository ini digunakan untuk praktikum Laravel pert 8 & 9.
    composer install
    ```
 
-3. Salin `.env.example` menjadi `.env`.
+3. Salin `.env.example` menjadi `.env`. dengan cara ketik di terminal
+    ```bash
+    cp .env.example .env
+    ```
 
 4. Buat database MySQL kosong dengan nama *dbexample_praktikum* (pastikan kosong, jika sudah ada hapus dan bikin ulang)
 
