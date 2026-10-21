@@ -30,29 +30,27 @@ Repository ini digunakan untuk praktikum Laravel pert 8 & 9.
     cp .env.example .env
     ```
 
-4. Buat database MySQL kosong dengan nama *dbexample_praktikum* (pastikan kosong, jika sudah ada hapus dan bikin ulang)
-
-5. Buat application key:
+4. Buat application key:
 
    ```bash
    php artisan key:generate
    ```
 
-6. Atur konfigurasi database pada `.env`.
+5. Atur konfigurasi database pada `.env`.
 
-7. Buat tabel dan data contoh:
+6. Buat tabel dan data contoh:
 
    ```bash
    php artisan migrate --seed
    ```
 
-8. Jalankan aplikasi:
+7. Jalankan aplikasi:
 
    ```bash
    php artisan serve
    ```
 
-9. Buka `http://127.0.0.1:8000`.
+8. Buka `http://127.0.0.1:8000`.
 
 ## Data Contoh
 
